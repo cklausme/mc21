@@ -1,3 +1,0 @@
-gfortran -o mc11 -O3 -ftree-vectorize -ffixed-line-length-0 -Wl,-framework -Wl,Accelerate dg*.f vode.f mc11.f
-gfortran -o mc21 -O3 -ftree-vectorize -ffixed-line-length-0 -Wl,-framework -Wl,Accelerate dg*.f vode.f mc21.f
-
